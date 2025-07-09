@@ -1,0 +1,504 @@
+<!-- Link if you want to host ypu website See this video for help : 
+ https://www.youtube.com/watch?v=1qemXwkc0ZU&t=233s -->
+<!-- URL to access your website 
+https://0vaogoox4tvc5n222h8uga.on.drv.tw/www.MyPortfolioDeepika.com/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    
+    <!--Header Started-->
+    <!-- Top Navigation Menu Starts-->
+    <nav class="topnav"  id="home">
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Portfolio</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#intro">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#exp">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#edu">Education</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"><a href="#certificates">Certifications</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800"><a href="#contact">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#intro">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#exp">Experience</a>
+                <a href="#edu">Education</a>
+                <a href="#certificates">Certifications</a>
+                <a href="#contact">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+        
+        
+        
+    </nav>
+    
+    
+    <!--Header End-->
+
+    <!--Banner Started-->
+    <section class="banner-content" id="home">        
+        <div class="banner">
+            
+           <div>
+                <img src="images/IntroImage (1).jpg"  data-aos="zoom-in-right" data-aos-duration="2500" alt="" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 5px solid white;">
+            </div>
+            <h1 id="banner-h1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+                Hi! It's Me, <span class="animate-name">Deepika Kala!</span>
+            </h1>
+            <div class="banner-quote">
+                <br>
+                <p id="banner-h2" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Driven by curiosity, powered by code — I build, learn, and adapt to create meaningful tech solutions.   <img src="images/employee.png" style="height: 30px;"></p>
+                <br>
+                <p id="banner-h3" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">"Start where you are. Use what you have. Do what you can. "</p>
+            </div> 
+        </div>
+
+        <!-- Scroll down SVG icon -->
+        <div class="scroll-down" onclick="scrollToNextSection()">
+            <span class="scroll-icon">
+                <svg id="scrollIcon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 16.5L6 10.5L7.41 9.09L12 13.67L16.59 9.09L18 10.5L12 16.5Z" fill="currentColor"/>
+                </svg>
+                <p id="scrollText" style="color: #9ab2c2;">Scroll Down</p>
+            </span>
+        </div>
+
+    </section>
+    <!--Banner End-->
+
+    <!----------------------------------Main Section Starts------------------------------------------>
+    <section class="intro" id="intro">
+        <h1 class="heading bouncy-text">About Me</h1>
+        <div class="main-container" style="display: flex;">
+            <div class="sub-container" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img class="image" src="images/intro_image.png" >             <!--class="intro-img"-->  
+            </div>
+            <div style="align-items: center;  background-color: #000;" class="content">
+                <p>
+                    I'm an M.Tech graduate in Computer Science from NIT Delhi, 
+                    with a strong foundation in programming, data analysis, and software development.
+                    I am passionate about solving real-world problems through technology and have explored 
+                    domains like machine learning, and full-stack web 
+                    development.</p>
+
+                <div class="social-links" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/deepika1998kala?tab=repositories" ><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/deepika.dips.1840/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/deepika-kala-9ba519259"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/deepika1998kala/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a style="text-decoration: none; color: white;" href="https://drive.google.com/file/d/13lxL2zox2URGwvJVO4ogXdGfWIq-FAq9/view?usp=sharing"><button>Download CV</button></a>
+                </div>
+                
+            </div>
+               
+        </div>
+        
+
+            
+               
+        <!-- <img src="" alt=""> -->
+    </section>
+
+    <!----------------------------------- Skill Set Section Starts------------------------------- -->
+    <section class="skillset" id="skills">
+        <h1 class="heading bouncy-text">My Skills</h1>
+        <div class="skills-row left-to-right">
+            
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/C.png" alt="C Icon">
+                </div>
+                <p>C</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/C++.png" alt="C++ Icon">
+                </div>
+                <p>C++</p>
+            </div>
+
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/Python.png" alt="Python Icon">
+                </div>
+                <p>Python</p>
+            </div>
+
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/power-bi.png" alt="power bi icom">
+                </div>
+                <p>PowerBI</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/tableau.png" alt="Tableau Icon">
+                </div>
+                <p>Tableau</p>
+            </div>
+        
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/sql.png" alt="SQL Icon">
+                </div>
+                <p>SQL</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/excel.png" alt="Excel Icon">
+                </div>
+                <p>Microsoft Excel</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/html.png" alt="HTML Icon">
+                </div>
+                <p>HTML</p>
+            </div>
+
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/css.png" alt="CSS Icon">
+                </div>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/javascript.png" alt="Javascript Icon">
+                </div>
+                <p>Javascript</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/tailwind-css.png" alt="Tailwind Icon">
+                </div>
+                <p>Tailwind CSS</p>
+            </div>
+        </div>
+        <div class="skills-row right-to-left">
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/mongo-db.png" alt="MongoDB Icon">
+                </div>
+                <p>MongoDB</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/r.png" alt="R Icon">
+                </div>
+                <p>R</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/windows.png" alt="Windows Icon">
+                </div>
+                <p>Windows</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/linux.png" alt="linux Icon">
+                </div>
+                <p>linux</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/macos.png" alt="MacOS Icon">
+                </div>
+                <p>MacOS</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/visual-studio.png" alt="Visual Studio Icon">
+                </div>
+                <p>Visual Studio</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/jupyter.png" alt="Jupyter Icon">
+                </div>
+                <p>Jupyter Notebook</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/github.png" alt="Github Icon">
+                </div>
+                <p>GitHub</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/ubuntu.png" alt="Ubuntu Icon">
+                </div>
+                
+                <p>Ubuntu</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/reactjs.png" alt="React Icon">
+                </div>
+                
+                <p>React</p>
+            </div>
+            <div class="skill">
+                <div class="skill-icon">
+                    <img src="images/nodejs.png" alt="Node Icon">
+                </div>
+                
+                <p>Node</p>
+            </div>
+            
+        </div>
+       
+    </section>
+      
+    <!--  SKILL Section Ends Here-->
+
+    
+    <!--  Project Section Starts Here-->
+
+    <section class="Project" id="projects">
+        <h1 class="heading bouncy-text" >Projects</h1>
+        <div class="project-container">
+            <div class="Project1">
+                <img src="images/ChatBox.png" alt="">
+                <p style="margin-top: 2px; color: white;">ChatBox</p>
+                <button class="btn-project" style="vertical-align:middle"><span><a href="https://chat-application-mu.vercel.app/" style="text-decoration: none; color: inherit;">View </a></span></button>
+                <!-- <a href="" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+            </div>
+            <div class="Project1">
+                <img src="images/dashboard_loan.png" alt="">
+                <p style="margin-top: 2px; color: white;">Bank Loan Dashboard</p>
+                <button class="btn-project" style="vertical-align:middle"><span><a href="https://medicare-assistant-2.onrender.com/" style="text-decoration: none; color: inherit;">View </a></span></button>
+            
+                <!-- <a href="" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+            </div>
+            <div class="Project1">
+                <img src="images/dashboard.png" alt="">
+                <p style="margin-top: 2px; color: white;">Grocery Analysis Dashboard</p>
+                <!-- <div style="display: flex;"><a href="https://drive.google.com/file/d/1TF8WCBWbVmrCWZzfk0IhlImSQpUVqBg5/view?usp=drive_link" style="margin-top: 2px;  text-decoration: none; margin-left: 30px;"><div class="arrow-text" style="color: #333;">PowerBI File &#x2192;</div></a></div> -->
+                    <!-- <a href="" style="margin-top: 2px; margin-left: 50px; text-decoration: none;"><div class="arrow-text" style="color: #333;">PDF &#x2192;</div></a> -->
+                    <button class="btn-project" style="vertical-align:middle"><span><a href="https://drive.google.com/file/d/1zb9Au2_gZIDwhC2Qtpy83xGJP73zZAYQ/view?usp=drive_link" style="text-decoration: none; color: inherit;">View </a></span></button>
+            
+                
+            </div>
+            <div class="Project1">
+                <img src="images/medicineSuggestionProject.png" alt="">
+                <p style="margin-top: 2px; color: white;">MediCare Assistant</p>
+                <button class="btn-project" style="vertical-align:middle"><span><a href="https://medicare-assistant-2.onrender.com" style="text-decoration: none; color: inherit;">View </a></span></button>
+            
+                <!-- <a href="" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+            </div>
+
+            <div class="Project1">
+                <img src="images/Calculator.png" alt="">
+                <p style="margin-top: 2px; color: white;">Scientific Calculator</p>
+                <!-- <a href="" style="margin-top: 2px;  text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+                <button class="btn-project" style="vertical-align:middle"><span><a href="https://sage-platypus-75fcb5.netlify.app/" style="text-decoration: none; color: inherit;">View </a></span></button>
+            
+                
+            </div>
+            
+    </section>
+    <!--  Project Section Ends Here-->
+
+    <!-- Coding Website link Section Starts -->
+    <section class="Project">
+        <h1 class="heading bouncy-text" >Visit Some of My Coding Platforms</h1>
+        <div class="Project1">
+            <img src="images/leetcode.png" alt="">
+            <p style="margin-top: 2px; color: white;">Leetcode</p>
+            <!-- <a href="" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333; ">Visit Here &#x2192;</div></a> -->
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://leetcode.com/u/222210005/" style="text-decoration: none; color: inherit;">View </a></span></button>
+            
+        </div>
+        <div class="Project1">
+            <img src="images/gfg.png" alt="">
+            <p style="margin-top: 2px; color: white;">GFG</p>
+            <!-- <a href="" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://www.geeksforgeeks.org/user/deepikakala/" style="text-decoration: none; color: inherit;">View </a></span></button>
+            
+        </div>
+        <div class="Project1">
+            <img src="images/TUF.png" alt="">
+            <p style="margin-top: 2px; color: white;">TUF</p>
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://takeuforward.org/profile/Deepikakala" style="text-decoration: none; color: inherit;">View </a></span></button>
+            <!-- <a href="https://takeuforward.org/profile/Deepikakala" style="margin-top: 2px;text-decoration: none;"></a>View</button> -->
+        </div>
+
+    </section>
+    <!-- Coding Website link Section Ends -->
+
+    <!-- Experience Section Starts -->
+    <section class="exp" id="exp">
+        <h1 class="heading bouncy-text" >Experience</h1>
+
+        <div class="timeline">
+            <div class="container left">
+                <div class="timeline-content">
+                    <h2 style="color: #000;">Sept 2024 - Feb 2025</h2>
+                    <h3 style="color: #36454f; text-align: justify;">DevOps Engineer</h3>    
+                    <h3 style="color: #36454f; text-align: left; margin-top: 0%; font-size: 18px;">RWEBSOFT Technology Pvt. Ltd.(Online)</h3>     
+                    <p style="color: #36454f; text-align: justify; font-size: 16px;"">◦ Collaborated on deploying and maintaining cloud-based applications, focusing on high availability, fault tolerance,
+                        and system scalability.<br>
+                        ◦ Automated CI/CD workflows using GitHub Actions and Jenkins, improving deployment speed and reducing
+                        manual errors.<br>
+                        ◦ Contributed to configuration management and version control of environments using Docker and Terraform.<br>
+                        ◦ Actively participated in daily stand-ups and collaborated with development teams to streamline deployment cycles
+                        and resolve environment-specific issues</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="timeline-content">
+                    <h2 style="color: #000;">May 2024 - August 2024</h2>
+                    <h3 style="color: #36454f; text-align: justify;">Data Analytics Intern </h3>    
+                    <h3 style="color: #36454f; text-align: left; margin-top: 0%; font-size: 18px;">Pantech.AI (Online)   </h3>     
+                    <p style="color: #36454f; text-align: justify; font-size: 16px;"">◦ Completed a 3-month virtual internship focused on core data analysis workflows and tools.<br>
+                        ◦ Gained hands-on experience with Python and SQL for data extraction, cleaning, and manipulation.<br>
+                        ◦ Explored data visualization using tools like Excel and PowerBI, and built basic dashboards to present key insights.<br>
+                        ◦ Worked on mini-projects involving real-world datasets to track metrics, derive trends, and support decision-making.<br>
+                        ◦ Strengthened skills in statistical analysis, feature engineering, and communicating findings in a clear, structured
+                        manner.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <!-- Experience Section Ends -->
+
+    <!-- Education Section Starts -->
+    <section class="education" id="edu">
+        <h1 class="heading bouncy-text" >Education</h1>
+        
+        <div class="timeline">
+            <div class="container left">
+              <div class="timeline-content">
+                <h2 style="color: #000;">Sept 2022 - July 2024</h2>
+                <h3 style="color: #434242;">M.Tech | CSE</h3>
+                <h3 style="color: #36454f;">National Institute of Technology(NIT), Delhi</h3>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="timeline-content">
+                <h2 style="color: #000;">Aug 2017 - June 2021</h2>
+                <h3 style="color: #434242; font-size: 18px;">B.Tech | CSE</h3>
+                <h3 style="color: #36454f;">Hemwati Nandan Bahuguna Garhwal University, Uttarakhand</h3>
+              </div>
+            </div>
+        </div>        
+    </section>
+    <!-- Education Section Ends -->
+
+    <!-- Certificates Section Starts -->
+    <section class="Project" id="certificates">
+        <h1 class="heading bouncy-text" >Certifications/Awards</h1>
+        <div class="Project1">
+            <img src="images/BCA_Full_Stack_Dev_Certificate.png" alt="">
+            <p style="margin-top: 2px; color: white;">Full Stack Development</p>
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://drive.google.com/file/d/1w0U6Aenf2UKimiXgatPsGhLpVAc7T3ld/view?usp=sharing" style="text-decoration: none; color: inherit;">View </a></span></button>
+            <!-- <a href="" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333; ">Visit Here &#x2192;</div></a> -->
+        </div>
+        <div class="Project1">
+            <img src="images/Coursera DA Certificate1.png" alt="">
+            <p style="margin-top: 2px; color: white;">Google Data Analytics</p>
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://drive.google.com/file/d/1NtzUaHmpyuWwoghbddJ5Pit9jDARNSNQ/view?usp=sharing" style="text-decoration: none; color: inherit;">View </a></span></button>
+            <!-- <a href="" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333; ">Visit Here &#x2192;</div></a> -->
+        </div>
+        <div class="Project1">
+            <img src="images/IEEE Conference Certificate.jpg" alt="">
+            <p style="margin-top: 2px; color: white;">IEEE Conference Certificate</p>
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://drive.google.com/file/d/1JXNBT-xLAYO8TJ245ZQEEMwDgNje1Wc-/view?usp=sharing" style="text-decoration: none; color: inherit;">View </a></span></button>
+            <!-- <a href="" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+        </div>
+        <div class="Project1">
+            <img src="images/Data Science Training - Certificate of Completion (1)-1.jpg" alt="">
+            <p style="margin-top: 2px; color: white;">Data Science Certificate</p>
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://drive.google.com/file/d/1C_qAAVwbDpesncDFH0lygx2G77aRKx41/view?usp=sharing" style="text-decoration: none; color: inherit;">View </a></span></button>
+            <!-- <a href="" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+        </div>
+        <div class="Project1">
+            <img src="images/ML_in Python.png" alt="">
+            <p style="margin-top: 2px; color: white;">ML in Python</p>
+            <button class="btn-project" style="vertical-align:middle"><span><a href="https://drive.google.com/file/d/15erOUle8FdT6kuyQ9EnRLkdLW4c0OyU-/view?usp=sharing" style="text-decoration: none; color: inherit;">View </a></span></button>
+            <!-- <a href="" style="margin-top: 2px;text-decoration: none;"><div class="arrow-text" style="color: #333;">Visit Here &#x2192;</div></a> -->
+        </div>
+       
+
+    </section>
+    <!-- Certificates Section Ends -->
+
+    <!-- Contact Section Starts -->
+    <section id="contact">
+        <h2 class="heading bouncy-text">Get in Touch</h2>
+        <form id="contact-form">
+            <!-- <label for="name">Name:</label> -->
+            <input type="text" name="name" placeholder="Name" />
+
+            <!-- <label for="email">Email:</label> -->
+            <input type="email" name="email" placeholder="Email"  required />
+
+            <!-- <label for="message">Message:</label> -->
+            <textarea name="message" rows="5" placeholder="Message"  required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <div id="form-message"></div>
+    </section>
+    <!-- Contact Section Ends -->
+
+    <!-- Footer Section Starts -->
+    <footer>
+        <div class="footer-content">
+            <p>Follow me on:</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/deepika-kala-9ba519259" target="_blank">
+                    <img src="images/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/deepika1998kala?tab=repositories" target="_blank">
+                    <img src="images/github.png" alt="github">
+                </a>
+                <a href="https://www.instagram.com/deepika1998kala/" target="_blank">
+                    <img src="images/instagram.png" alt="instagram">
+                </a>
+                <a href="https://www.facebook.com/deepika.dips.1840/" target="_blank">
+                    <img src="images/facebook.png" alt="facebook">
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 @deepikakala. All rights reserved.
+        </div>
+    </footer>
+    <!-- Footer Section Starts -->
+
+    
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        
+    <!-- Script for Header -->
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
